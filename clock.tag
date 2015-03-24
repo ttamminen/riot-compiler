@@ -1,8 +1,12 @@
 <clock>
-	<div class="clock">
+	<div class="clock" onclick="test">
   		<div class="hour"></div>
   		<div class="minute"></div>
 	</div>
+
+	test() {
+		console.log("click");
+	}
 
 	function clock() { 
 		var t = moment(),
